@@ -1,0 +1,57 @@
+ :root {
+  font-family: Inter, System-UI, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+.app-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: #1e293b;
+  margin-bottom: 2rem;
+}
+
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.user-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  border: 1px solid #e2e8f0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.user-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.user-card h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  color: #2563eb;
+  border-bottom: 2px solid #eff6ff;
+  padding-bottom: 8px;
+}
+
+.user-card p {
+  margin: 8px 0;
+  font-size: 0.95rem;
+  color: #475569;
+}
