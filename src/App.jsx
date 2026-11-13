@@ -1,13 +1,13 @@
  
 import React from "react";
-import RegistrationForm from "./components/RegistrationForm";
+import TicTacToe from "./components/TicTacToe";
 
 function App() {
-  return (
-    <div>
-      <RegistrationForm />
-    </div>
-  );
+    return (
+        <div>
+            <TicTacToe />
+        </div>
+    );
 }
 
 export default App;
